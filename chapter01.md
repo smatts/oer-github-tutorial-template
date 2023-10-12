@@ -26,8 +26,6 @@ This tutorial guides you through the creation of open educational resources (OER
 > After completing this tutorial, you will have an automatically generated OER with your own content and metadata, published on GitHub for free and ready to be put into our OER search index [OERSI](https://oersi.org).
 
 ## Quick Start
-<section>
-
 > If you want to get started really quickly, you can follow this quick start tutorial and create a simple OER within just a few minutes.
 
 ### 1. Create a GitHub account, if you don't have one yet
@@ -45,7 +43,7 @@ Assign the repository's owner to yourself (or to a group of your choice, if you 
 Make sure that the repository is set to **public**.
 Lastly, confirm by clicking on **Create repository from template**.
 
-!?[Create repository from template](videos/create-from-template.mp4)
+![Create repository from template](videos/create-from-template.mp4)
 
 ### 3. Fill the project with your content
 
@@ -69,7 +67,7 @@ You can also choose to create or delete files. If you do not want the four chapt
 
 Lastly, enable the automatic generation of your OER. To do this, go to the project's `Settings` -> `Pages` and in `Build and Development` set the source to `GitHub Actions`. After this, you can head to the `Actions` tab and click on the newest workflow run. If the worklow already ran, you will find that it failed. This happened because the Pages were not enabled yet. In this case, click on re-run jobs. Otherwise, wait until the jobs have finished. The generated documents are now created.
 
-!?[Pages](videos/pages.mp4)
+![Pages](videos/pages.mp4)
 
 ### 5. Add your metadata
 Go to our [Metadata Generator]() and insert the metadata that describes your OER. In the top right corner, you have the option to switch the language between **German** ("DE") and **English** ("EN").
@@ -80,14 +78,12 @@ In your repository, click on the `metadata.yml` file and then on the pen symbol 
 
 Now at the bottom of the page, you can click on `Generate`. This generates the metadata in the correct format. You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (`Ctrl + A`) and copying it (`Ctrl + C`).
 
-!?[Add metadata](videos/metadata-placeholder.mp4)
+![Add metadata](videos/metadata-placeholder.mp4)
 
 ### Done!
 At the front page of your repository, inside the `README.md` content, there are several links you can use to view your generated documents. Click on the `landing page` link to view a page that lists metadata about your OER and supplies several links to different output formats (like a web version, a pdf version, ...).
 
 > To insert your OER into the OER search index [oersi.org](https://oersi.org), head to the `About` section in the index of your repository, click on the settings symbol and add `open-educational-resources` to `Topics`. Your course will be indexed at night and appear on the next day.
-
-</section>
 
 ## Step by step tutorial
 The step by step tutorial consists of the following steps, which you can click through either on the sidebar, using the arrows on the bottom or simply using the arrow keys on your keyboard.
@@ -101,9 +97,6 @@ The step by step tutorial consists of the following steps, which you can click t
 * [Insert into OERSI](#insert-your-oer-in-oersi)
 
 ### Requirements
-
-<section>
-
 > For this tutorial, **you will need a GitHub account**. It is also recommended to **get to know Markdown**, a markup language which can create formatted text using only plain-text, since Markdown is used to write and format your content.
 >
 > If you already have a GitHub account and know basic markdown syntax, you can skip this part and directly go do [Create a project](#create-a-project).
@@ -128,12 +121,7 @@ To see basic formatting options, check out the [Cheat Sheet](https://www.markdow
 
 Some of the basic Markdown syntax is shown in the reference part of this tutorial: [Reference: Markdown](#markdown-1).
 
-</section>
-
 ### Create a project
-
-<section>
-
 > The place where you will put your OER is called a `repository`. You can think of it as a project where all your files are located.
 
 Once you are logged into GitHub, go to the [TIB Hannover markdown documents template repository](https://github.com/TIBHannover/markdown-documents-template) and click on "Use this template" -> "Create a new repository".
@@ -145,14 +133,9 @@ Assign the repository to the correct owner and give it a short but meaningful na
 Now, a new repository is initialized for you containing the contents from the template.
 
 #### Video tutorial
-!?[Tutorial as video](videos/create-from-template.mp4)
-
-</section>
+![Tutorial as video](videos/create-from-template.mp4)
 
 ### Generate output
-
-<section>
-
 > The automatic generation will take your content (everything inside the `Markdown` files, so those ending with `.md`) and generate different output formats. For example, these include a **web page** and a **pdf** version of your OER and are publicly accessible. This generation is done each time you change something in your repository, so your content will always be up to date.
 
 In order to generate the different output formats for your OER, go to the project's `Settings` -> `Pages` and in `Build and Development` set the source to `GitHub Actions`. After this, you can head to the `Actions` tab and click on the newest workflow run. If the worklow already ran, you will find that it failed. This happened because the Pages were not enabled yet. In this case, click on re-run jobs. Otherwise, wait until the jobs have finished. The pages and documents are now created. They can be accessed by the link that appeared under the `deploy` step.
@@ -160,7 +143,6 @@ In order to generate the different output formats for your OER, go to the projec
 Congratulations, you now have a complete course/document that you can make your own!
 
 #### What are Actions?
-
 > An `Action` is something that GitHub can execute with every commit (save) you make to the repository. This includes the generation of documents or pages, which we are using in this tutorial.
 >
 > A more detailed explanation of GitHub Actions can be found here: [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
@@ -171,14 +153,9 @@ Congratulations, you now have a complete course/document that you can make your 
 >More information on GitHub Pages can be found here: [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
 ### Video tutorial
-!?[Actions and Pages](videos/pages.mp4)
-
-</section>
+![Actions and Pages](videos/pages.mp4)
 
 ### Fill with content
-
-<section>
-
 > Currently, there is still dummy data inside your repository. The next step is to replace this dummy data with your actual OER.
 
 ### How and where to upload your own content
@@ -221,12 +198,7 @@ By default, the automatic generator will look for all Markdown files (so those e
 
 You can learn more about that in the [Configuration options](#configuration-options) section in the reference part of this tutorial.
 
-</section>
-
 ### Add your metadata
-
-<section>
-
 > Metadata is the data describing your OER. This includes information like the title, author, license and much more. If you don't supply metadata with your repository, it is unclear what your OER is about, who it is from, if and how your OER can be used and so on. This is why we have a `metadata.yml` file in our repository. This file lets us include the information about the OER directly in the repository. This is also necessary for inserting your OER into a search index like [OERSI](https://oersi.org). This section shows how to replace the dummy metadata in the repository with the correct metadata describing your OER.
 
 Perhaps the easiest way to generate your own metadata for your repository in the correct format is to use the [OERSI metadata generator](https://oersi.gitlab.io/metadata-form/metadata-generator.html) and fill out at least all required fields, but try to fill out as much as you can.
@@ -241,9 +213,7 @@ In your GitHub repository, edit the `metadata.yml` file. Now delete the whole fi
 To save, click on `Commit changes...` in the top right corner. Confirm by clicking on `Commit changes`.
 
 #### Video: Update the metadata
-!?[Update the metadata](videos/metadata-placeholder.mp4)
-
-</section>
+![Update the metadata](videos/metadata-placeholder.mp4)
 
 ### Insert your OER in OERSI
 > Let's assume that...
@@ -286,9 +256,6 @@ In this part of the tutorial, we highlight further configuration options, Markdo
 * [Different formats](#different-formats)
 
 ### Configuration options
-
-<section>
-
 > In the repository, there is a file called `config.yml`. This gives you some configuration options concerning the automatic generation of your OER, like the order of your content.
 
 In the top level of the repository, there is a file named `config.yml`. It includes configuration for these four things:
@@ -299,7 +266,6 @@ In the top level of the repository, there is a file named `config.yml`. It inclu
 * `generate_reuse_note`: decide whether or not to generate a reuse note on the generated documents
 
 #### Editing this file
-
 As you are editing this file, you have to consider the format of this file. This file is a `yaml` file. This file has a specific structure you have to follow, or else the automatic generator will not work.
 
 As you can see when opening the file, the structure looks like this:
@@ -340,9 +306,7 @@ The dashes (`-`) have to start with two spaces before the dash and then one spac
 Basically, just make sure the number of spaces is consistent throughout the whole file.
 
 #### Video tutorial
-!?[Config file explained](videos/config.mp4)
-
-</section>
+![Config file explained](videos/config.mp4)
 
 ### Markdown
 > For a good overview on what Markdown is and what you can do with it, you can check out the Markdown guide from Matt Cone:
@@ -351,13 +315,10 @@ Basically, just make sure the number of spaces is consistent throughout the whol
 > 
 > * [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
-<section>
-
 ### Headings
 
 To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`) [[1](https://www.markdownguide.org/basic-syntax/)].
 
-<!-- data-type="none" -->
 | Heading level | How to write it | How it looks |
 |---|---|---|
 | Heading level 1 | # Heading level 1 | <h1>Heading level 1</h1> |
@@ -368,7 +329,6 @@ To create a heading, add number signs (`#`) in front of a word or phrase. The nu
 | Heading level 6 | ###### Heading level 6 | <h6>Heading level 6</h6> |
 
 ### Markdown elements
-<!-- data-type="none" -->
 | Element | How to write it | How it looks |
 |---|---|---|
 | Bold | \*\*Bold text\*\* | **Bold text** |
@@ -398,14 +358,10 @@ You can also set custom links like this:
 
 Now the link to this section is `#custom-id`.
 
-</section>
-
 ### Git
 
 > This section only gives a brief overview of Git.
 > If you want to learn more about it, check out the free online [Pro Git](https://git-scm.com/book/en/v2) textbook.
-
-<section>
 
 ### What is Git and why should you use it?
 Have you ever worked on different versions of a document, or even with different people?
@@ -419,12 +375,7 @@ So after you have made your changes, you "commit" these changes and "push" them 
 
 ![The lifecycle of the status of your files](img/pro-git-git-basics.png "CC-BY-SA-NC Pro Git, https://git-scm.com/book/en/v2")
 
-</section>
-
 ### Working offline
-
-<section>
-
 > If you want to work offline, using some kind of text editor (similar to working with Word on documents), some necessary steps and background knowledge are required.
 
 Since we are working with `Git` (see [Git section](#git) for more information), and want to publish our content on `GitHub` (see [GitHub section](#github)), we have to find a way to bring our offline work online. For this, you should check out the [Git section](#git).
@@ -454,8 +405,6 @@ But that is rather tedious and unnecessary. Neither is it the way Git is suppose
 
 We will stick to the *VSCodium*/*VSCode* editor for this example.
 
-</section>
-
 ### Immediate update in OERSI
 > Your OER will be automatically inserted into the [OERSI](https://oersi.org) if you fulfill the requirements listed in the [insert your OER into OERSI section](#insert-your-oer-in-oersi). The resources are updated each night. If you want to see **immediate** changes, you can use the (experimental) record updater.
 
@@ -467,9 +416,6 @@ Insert the link to your GitHub repository or to the generated landing page of yo
 Then, click on update. Your OER should now be updated in the OERSI.
 
 ### Different formats
-
-<section>
-
 > After following this tutorial, we have different output formats like a HTML version, a PDF version and so on.
 > We could, however, generate all kinds of different formats, for example a course format like this tutorial.
 
@@ -484,4 +430,3 @@ Below you find a short list of several possible formats your OER could use:
 * [Static Site Generators](https://github.com/collections/static-site-generators)
 * [JupyterBooks](https://jupyterbook.org/en/stable/intro.html)
 
-</section>

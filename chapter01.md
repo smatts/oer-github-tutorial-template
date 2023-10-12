@@ -315,34 +315,6 @@ Basically, just make sure the number of spaces is consistent throughout the whol
 > 
 > * [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
-### Headings
-
-To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`) [[1](https://www.markdownguide.org/basic-syntax/)].
-
-| Heading level | How to write it | How it looks |
-|---|---|---|
-| Heading level 1 | # Heading level 1 | <h1>Heading level 1</h1> |
-| Heading level 2 | ## Heading level 2 | <h2>Heading level 2</h2> |
-| Heading level 3 | ### Heading level 3 | <h3>Heading level 3</h3> |
-| Heading level 4 | #### Heading level 4 | <h4>Heading level 4</h4> |
-| Heading level 5 | ##### Heading level 5 | <h5>Heading level 5</h5> |
-| Heading level 6 | ###### Heading level 6 | <h6>Heading level 6</h6> |
-
-### Markdown elements
-| Element | How to write it | How it looks |
-|---|---|---|
-| Bold | \*\*Bold text\*\* | **Bold text** |
-| Italic | \*Italicized text\* | *Italic text* |
-| Blockquote | > blockquote | To be seen at the top of this section |
-| Ordered list | 1. First item <br> 2. Second item | 1. First item <br> 2. Second item |
-| Unordered list | - First item <br> - Second item | - First item <br> - Second item |
-| Code | \`code\` | `code` |
-| Horizontal rule | \-\-\- | --- |
-| Link | [Link text](link url) | [Markdown Guide](https://www.markdownguide.org) |
-| Image | ![Alt text](image url) | ![Image showing the text placeholder](http://via.placeholder.com/50x50) |
-
-[1] Matt Cone, [markdownguide.org](https://www.markdownguide.org), [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-
 ### Links to other sections
 
 You can link to sections within your document using the link syntax shown in the table above.

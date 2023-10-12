@@ -9,7 +9,7 @@ jobs:
   prepare-and-build-documents:
     runs-on: ubuntu-latest
     container:
-      image: registry.gitlab.com/tibhannover/oer/markdown-pandoc-processor
+      image: registry.gitlab.com/tibhannover/oer/markdown-pandoc-processor/fix-unsupported-chars-to-break-build
     steps:
       - uses: actions/checkout@v3
       - run: |

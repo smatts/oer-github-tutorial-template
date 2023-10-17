@@ -9,7 +9,7 @@ jobs:
   prepare-and-build-documents:
     runs-on: ubuntu-latest
     container:
-      image: registry.gitlab.com/tibhannover/oer/markdown-pandoc-processor/fix-table-of-contents-when-code-blocks-include-hashtags
+      image: registry.gitlab.com/tibhannover/oer/markdown-pandoc-processor/16-replace-videos-inside-image-tags-when-producing-a-pdf
     steps:
       - uses: actions/checkout@v3
       - run: |

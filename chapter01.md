@@ -43,7 +43,7 @@ Assign the repository's owner to yourself (or to a group of your choice, if you 
 Make sure that the repository is set to **public**.
 Lastly, confirm by clicking on **Create repository from template**.
 
-{{<video videos/create-from-template.mp4 >}}
+![Create repository from template](videos/create-from-template.mp4)
 
 ### 3. Fill the project with your content
 
@@ -67,7 +67,7 @@ You can also choose to create or delete files. If you do not want the four chapt
 
 Lastly, enable the automatic generation of your OER. To do this, go to the project's `Settings` -> `Pages` and in `Build and Development` set the source to `GitHub Actions`. After this, you can head to the `Actions` tab and click on the newest workflow run. If the worklow already ran, you will find that it failed. This happened because the Pages were not enabled yet. In this case, click on re-run jobs. Otherwise, wait until the jobs have finished. The generated documents are now created.
 
-{{<video videos/pages.mp4 >}}
+![Pages](videos/pages.mp4)
 
 ### 5. Add your metadata
 Go to our [Metadata Generator]() and insert the metadata that describes your OER. In the top right corner, you have the option to switch the language between **German** ("DE") and **English** ("EN").
@@ -78,7 +78,7 @@ In your repository, click on the `metadata.yml` file and then on the pen symbol 
 
 Now at the bottom of the page, you can click on `Generate`. This generates the metadata in the correct format. You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (`Ctrl + A`) and copying it (`Ctrl + C`).
 
-{{<video Add metadata](videos/metadata-placeholder.mp4 >}}
+![Add metadata](videos/metadata-placeholder.mp4)
 
 ### Done!
 At the front page of your repository, inside the `README.md` content, there are several links you can use to view your generated documents. Click on the `landing page` link to view a page that lists metadata about your OER and supplies several links to different output formats (like a web version, a pdf version, ...).
@@ -131,7 +131,7 @@ Assign the repository to the correct owner and give it a short but meaningful na
 Now, a new repository is initialized for you containing the contents from the template.
 
 #### Video tutorial
-{{<video videos/create-from-template.mp4 >}}
+![Tutorial as video](videos/create-from-template.mp4)
 
 ### Generate output
 > The automatic generation will take your content (everything inside the `Markdown` files, so those ending with `.md`) and generate different output formats. For example, these include a **web page** and a **pdf** version of your OER and are publicly accessible. This generation is done each time you change something in your repository, so your content will always be up to date.
@@ -151,7 +151,7 @@ Congratulations, you now have a complete course/document that you can make your 
 >More information on GitHub Pages can be found here: [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
 ### Video tutorial
-{{<video videos/pages.mp4 >}}
+![Actions and Pages](videos/pages.mp4)
 
 ### Fill with content
 > Currently, there is still dummy data inside your repository. The next step is to replace this dummy data with your actual OER.
@@ -210,7 +210,7 @@ In your GitHub repository, edit the `metadata.yml` file. Now delete the whole fi
 To save, click on `Commit changes...` in the top right corner. Confirm by clicking on `Commit changes`.
 
 #### Video: Update the metadata
-{{<video videos/metadata-placeholder.mp4 >}}
+![Update the metadata](videos/metadata-placeholder.mp4)
 
 ### Insert your OER in OERSI
 > Let's assume that...
@@ -303,7 +303,7 @@ The dashes (`-`) have to start with two spaces before the dash and then one spac
 Basically, just make sure the number of spaces is consistent throughout the whole file.
 
 #### Video tutorial
-{{<video videos/config.mp4 >}}
+![Config file explained](videos/config.mp4)
 
 ### Markdown
 > For a good overview on what Markdown is and what you can do with it, you can check out the Markdown guide from Matt Cone:

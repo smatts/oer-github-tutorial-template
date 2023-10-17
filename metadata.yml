@@ -1,22 +1,39 @@
+---
+'@context': http://schema.org/
 creativeWorkStatus: Draft
-name: OER GitHub Tutorial
+creator:
+- '@type': Person
+  affiliation:
+    id: https://ror.org/04aj4c181
+    name: Technische Informationsbibliothek (TIB) - Leibniz-Informationszentrum Technik
+      und Naturwissenschaften - Universitätsbibliothek
+    type: Organization
+  familyName: Matter
+  givenName: Sophie
+  type: Person
+dateModified: '2023-10-17T14:02:47Z'
 description: This tutorial helps you create OER using GitHub and our template.
+educationalLevel:
+- id: https://w3id.org/kim/educationalLevel/level_A
+  prefLabel:
+    de: Hochschule
+    en: University
+id: https://smatts.github.io/oer-github-tutorial-template/
+inLanguage:
+- en
+learningResourceType:
+- id: https://w3id.org/kim/hcrt/course
+  prefLabel:
+    da: Kursus
+    de: Kurs
+    en: Course
+    es: Curso
+    fi: Kurssi
+    fr: Cours
+    nl: Cursus
+    uk: Курс
 license:
   id: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://smatts.github.io/oer-github-tutorial-template/
-creator:
-  - givenName: Sophie
-    familyName: Matter
-    type: Person
-    affiliation:
-      name: >-
-        Technische Informationsbibliothek (TIB) - Leibniz-Informationszentrum
-        Technik und Naturwissenschaften - Universitätsbibliothek
-      id: https://ror.org/04aj4c181
-      type: Organization
-inLanguage:
-  - en
-learningResourceType:
-  - https://w3id.org/kim/hcrt/course
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+name: OER GitHub Tutorial
+publisher: []
+url: https://smatts.github.io/oer-github-tutorial-template/
